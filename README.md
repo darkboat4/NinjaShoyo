@@ -1,7 +1,7 @@
 
 <h1  align="center">Ninja Shoyo</h1>
 
-site: <a link="https://darkboat4.github.io/NinjaShoyo/"> Ninja Shoyo Site</a>
+site: https://darkboat4.github.io/NinjaShoyo/
 
 <h3>Site para projeto academico de Gestão de Dados Web</h3>
 
