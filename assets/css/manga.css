@@ -1,0 +1,78 @@
+@import url(style.css);
+
+
+main section.manga{
+    margin-top: 50px;
+    width: 90vw;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+main section.manga img.pag{
+    width: 50vw;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+main div.mudar_cap{
+    width: 90vw;
+    height: auto;
+
+
+    margin: 20px 0 20px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+main div.mudar_cap button{
+    width: auto;
+    height: auto;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    font-size: 1em;
+
+
+    cursor: pointer;
+
+    font-weight: 500;
+
+    background-color: var(--preto);
+
+    color: var(--branco);
+
+    border: 1px solid var(--laranja);
+    
+    transition: .3s;
+
+    border-radius: 2px;
+
+
+}
+
+main div.mudar_cap button:hover{
+
+    transform: translateY(-8px);
+    transition: .3s;
+}
+main div.mudar_cap button:active{
+    background-color: var(--laranja);
+    color: var(--preto);
+    transform: translateY(-4px);
+    transition: .3s;
+}

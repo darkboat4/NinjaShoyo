@@ -1,0 +1,176 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+@font-face {
+    font-family: "Manga-Font";
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --laranja: #FF7615;
+    --preto:#110E0F;
+    --branco: #E2E2E3;
+    --font-padrao:'Outfit', sans-serif;
+}
+
+*{margin: 0;padding: 0;}
+
+header{
+    color: var(--branco);
+    width: 100%;
+    height: 10vh;
+    background-color: var(--preto);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    font-size: 1.3em;
+
+    border-bottom: 2px solid var(--laranja);
+}
+
+header div.ninja-img-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: auto;
+    width:  13%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div.ninja-img-title p{
+    font-weight: bolder;
+    margin-left: 4px;
+    width: auto;
+}   
+
+header div.ninja-img-title img{
+    width: 50px;
+
+    margin-left: 10px;
+
+    object-fit: contain;
+    
+}
+
+header section{
+    height: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header section a{
+    text-decoration: none;
+    color: var(--branco);
+    transition: .3s;
+    
+    cursor: pointer;
+}
+
+header section a:hover{
+    border-bottom: 1px solid var(--branco);
+    transition: .3s;
+
+    transform: translateY(-5px);
+}
+
+header section a:hover ~ header section a:not(:hover){
+    filter: opacity(10%);
+
+    transition: .2s;
+}
+
+body{
+    font-family: var(--font-padrao);
+
+    background-image: url(../img/background-wallpaper-haikyu-c-blur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    height: 20vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    position: relative;
+}
+footer div:nth-child(1){
+    width: 15vw;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer div:nth-child(1) p{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer div:nth-child(1) img{
+    width: auto;
+    height: 70%;
+    object-fit: contain;
+}
+
+footer div:nth-child(2){
+    width: 20vw;
+    height: 100%;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+footer div:nth-child(2) a{
+    text-decoration: none;
+    color: var(--branco);
+
+    margin-left: 50px;
+
+    font-size: 2em;
+
+    transition: .2s;
+}
+
+footer div:nth-child(2) a:hover{
+    transform: translateY(-2px);
+    
+    transition: .2s;
+}
+
+footer p.roda-pe{
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    
+    filter: opacity(50%);
+}
