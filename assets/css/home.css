@@ -304,7 +304,7 @@ main div.container-3 button:hover{
         align-items: center;
         display: flex;
         margin-bottom: 20px;
-        margin-top: 35vh;
+        margin-top: 1vh;
     }
 
     main div.container-1 div.text-shoyo{
@@ -334,7 +334,7 @@ main div.container-3 button:hover{
         align-items: center;
         width: 90vw;
         height: auto;
-        margin-bottom: 25vh;
+        margin-bottom: 5vh;
 
         
     }
@@ -354,12 +354,18 @@ main div.container-3 button:hover{
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
+        height: auto;
+        padding-bottom: 5vh;
     }
     main div.container-2 p{
         text-align: center;
         font-size: 1em;
     }
-
+    main div.container-3{
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
     main div.container-3 p{
         font-size: 1em;
     }
