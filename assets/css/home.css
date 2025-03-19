@@ -230,50 +230,14 @@ main div.container-3 button:hover{
 
 @media screen and (max-width: 780px){
 
-    main div.container-1{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    main div.container-1 div.text-shoyo{
-        max-width: 90vw;
-        width: 90vw;
-        height: 40vh;
-        margin: 10px;
-    }
-    main div.container-1 div.text-shoyo p{
-        font-size: 1em;
-    }
-    main div.container-1 div.text-shoyo p{
-        font-size: 1em;
-    }
-    main div.container-1 div.imgs-shoyo{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 90vw;
-        height: auto;
-        
-    }
-    /* main div.container-1 div.imgs-shoyo{
-    } */
-    main div.container-1 div.imgs-shoyo div{
-        position: static;
-        left: 0%;
-        top:0%;
-        margin: 50px;
-    }
-    
-}
-@media screen and (max-width: 500px){
-
+  
     main div.container-1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         display: flex;
         margin-bottom: 20px;
+        margin-top: 20vh;
     }
 
     main div.container-1 div.text-shoyo{
@@ -300,6 +264,77 @@ main div.container-3 button:hover{
         align-items: center;
         width: 90vw;
         height: auto;
+        margin-bottom: 10vh;
+
+    }
+    main div.container-1 div.imgs-shoyo div{
+        width: 20vw;
+        margin: 10px;
+        position: static;
+    }
+    main div.container-1 div.imgs-shoyo div img{
+        width: 100%;
+        height: auto;
+    }
+    main div.container-2{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    main div.container-2 p{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    main div.container-3 p{
+        font-size: 1em;
+    }
+    main div.container-3 button{
+        width: 50vw;
+    }
+
+    
+}
+@media screen and (max-width: 500px){
+
+    main div.container-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 35vh;
+    }
+
+    main div.container-1 div.text-shoyo{
+        max-width: 90vw;
+        width: 90vw;
+        height: 60vh;
+        margin: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        text-align: center;
+        margin: 0;
+
+        
+        
+    }
+    main div.container-1 div.text-shoyo p{
+        font-size: 1em;
+    }
+    main div.container-1 div.imgs-shoyo{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        margin-bottom: 25vh;
 
         
     }
@@ -322,6 +357,7 @@ main div.container-3 button:hover{
     }
     main div.container-2 p{
         text-align: center;
+        font-size: 1em;
     }
 
     main div.container-3 p{
