@@ -101,6 +101,9 @@ main div.container div.selecionar-capitulo section a:nth-child(1)::before{
 main div.container div.selecionar-capitulo section a:nth-child(2)::before{
     background-image: url(../img/HaikyuuCapitulo02/HaikyuuCapitulo02_003.jpg);
 }
+main div.container div.selecionar-capitulo section a:nth-child(3)::before{
+    background-image: url(../img/HaikyuuCapitulo03/HaikyuuCapitulo03_003.jpg);
+}
 
 main div.container div.selecionar-capitulo section a p{
     /* margin-top: ; */
