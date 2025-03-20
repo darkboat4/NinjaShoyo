@@ -76,3 +76,13 @@ main div.mudar_cap button:active{
     transform: translateY(-4px);
     transition: .3s;
 }
+
+@media screen and (max-width: 500px) {
+    main section.manga{
+        margin-top: 30px;
+    }
+    
+    main section.manga img.pag{
+        width: 80vw;
+    }
+}
