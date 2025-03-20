@@ -311,7 +311,7 @@ main div.container-3 button:hover{
         display: flex;
         margin-bottom: 20px;
         margin-top: 1vh;
-        
+        width: 10vw;
         height: auto;
         padding-bottom: 5vh;
     }
@@ -319,8 +319,10 @@ main div.container-3 button:hover{
     main div.container-1 div.text-shoyo{
         max-width: 90vw;
         width: 90vw;
-        height: 60vh;
+        height: auto;
         margin: 10px;
+        
+        padding-bottom: 5vh;
 
         display: flex;
         align-items: center;
@@ -334,8 +336,13 @@ main div.container-3 button:hover{
         
         
     }
+
+    main div.container-1 div.text-shoyo h3{
+        font-size: 2.5em;
+    }
     main div.container-1 div.text-shoyo p{
         font-size: 1em;
+        text-align: center;
     }
     main div.container-1 div.imgs-shoyo{
         flex-direction: row;
@@ -353,6 +360,7 @@ main div.container-3 button:hover{
         width: 50vw;
         margin: 10px;
         position: static;
+        height: auto;
     }
     main div.container-1 div.imgs-shoyo div img{
         width: 100%;
@@ -366,6 +374,9 @@ main div.container-3 button:hover{
         height: auto;
         padding-bottom: 3vh;
 
+    }
+    main div.container-2 h1{
+        font-size: 3em;
     }
     main div.container-2 p{
         text-align: center;
