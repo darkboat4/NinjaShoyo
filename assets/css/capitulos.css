@@ -50,7 +50,15 @@ main div.container div.selecionar-capitulo section{
 
     padding: 10px;
 }
-
+main div.container div.selecionar-capitulo section::-webkit-scrollbar{
+    
+}
+main div.container div.selecionar-capitulo section::-webkit-scrollbar-track{
+    
+}
+main div.container div.selecionar-capitulo section::-webkit-scrollbar-thumb{
+    
+}
 
 main div.container div.selecionar-capitulo section a{
     height: 100%;
@@ -104,6 +112,30 @@ main div.container div.selecionar-capitulo section a:nth-child(2)::before{
 main div.container div.selecionar-capitulo section a:nth-child(3)::before{
     background-image: url(../img/HaikyuuCapitulo03/HaikyuuCapitulo03_003.jpg);
 }
+main div.container div.selecionar-capitulo section a:nth-child(4)::before{
+    background-image: url(../img/HaikyuuCapitulo04/HaikyuuCapitulo04_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(5)::before{
+    background-image: url(../img/HaikyuuCapitulo05/HaikyuuCapitulo05_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(6)::before{
+    background-image: url(../img/HaikyuuCapitulo06/HaikyuuCapitulo06_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(7)::before{
+    background-image: url(../img/HaikyuuCapitulo07/HaikyuuCapitulo07_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(8)::before{
+    background-image: url(../img/HaikyuuCapitulo08/HaikyuuCapitulo08_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(9)::before{
+    background-image: url(../img/HaikyuuCapitulo09/HaikyuuCapitulo09_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(10)::before{
+    background-image: url(../img/HaikyuuCapitulo10/HaikyuuCapitulo10_003.jpg);
+}
+main div.container div.selecionar-capitulo section a:nth-child(11)::before{
+    background-image: url(../img/HaikyuuCapitulo11/HaikyuuCapitulo11_003.jpg);
+}
 
 main div.container div.selecionar-capitulo section a p{
     /* margin-top: ; */
@@ -111,10 +143,9 @@ main div.container div.selecionar-capitulo section a p{
     font-size: 1.4em;
     font-weight: bold;
 
-
-
-
 }
+
+
 @media screen and (max-width: 500px) {
     main div.container{
         width: 90vw;
