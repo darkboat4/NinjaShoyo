@@ -23,7 +23,7 @@
             <div class="selecionar-capitulo">
                 <h1>Selecionar Capitulo</h1>
                 <section>
-                    <a href="capitulos/cap1.html">
+                    <a onclick="abrirCap(1)">
                         <p>Capitulo 1</p>
                     </a>
                     <a href="capitulos/cap2.html">
@@ -52,5 +52,14 @@
 
         <p class="roda-pe">© 2025 NinjaShoyo. Feito por Ryan Santos.</p>
     </footer>
+    <script>
+        function abrirCap(num_cap) {
+            // Redirecionar para a página de leitura, passando os parâmetros pela URL
+            const url = `capitulos/cap.html?cap=${num_cap}`;
+            window.location.href = url;  // Redireciona para a nova página
+
+            console.log(url)
+        }
+    </script>
 </body>
 </html>

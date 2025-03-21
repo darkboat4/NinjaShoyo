@@ -8,4 +8,4 @@ function proxcap(next){
 
 function voltarcap(prev){
     window.location.href= `cap${prev}.html`;
-}
+}   
