@@ -26,6 +26,7 @@ const num_pages = [
     /* Capítulo 3 */ 23, /* Páginas */
     /* Capítulo 4 */ 19, /* Páginas */
     /* Capítulo 5 */ 20, /* Páginas */
+    /* Capítulo 6 */ 20, /* Páginas */
 ];
 // Função para pegar os parâmetros da URL
 function getQueryParams() {
