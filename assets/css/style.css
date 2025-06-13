@@ -13,6 +13,36 @@
     --font-padrao:'Outfit', sans-serif;
 }
 
+/* Estiliza a trilha (fundo da barra de rolagem) */
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 10px;
+    border: 2px solid rgba(89, 89, 89, 0.463);
+}
+
+/* Estiliza a barra de rolagem */
+::-webkit-scrollbar {
+    width: 1dvw;
+    height: 2vh; /* para scroll horizontal */
+    color: var(--laranja);
+    transition: .2s linear;
+}
+
+/* Estiliza o "polegar" da barra (parte que se move) */
+::-webkit-scrollbar-thumb {
+    background-color: var(--laranja);
+    border-radius: 10px;
+    border: 1px solid var(--branco);
+    transition: .2s linear;
+}
+
+/* Efeito ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+    border: 1px solid #a2a2a2;
+    transition: .2s linear;
+}
+
+
 *{margin: 0;padding: 0;}
 
 header{
@@ -29,6 +59,10 @@ header{
     font-size: 1.3em;
 
     border-bottom: 2px solid var(--laranja);
+    position: sticky;
+    left: 0;
+    top:0;
+    z-index: 1000;
 }
 
 header div.ninja-img-title{
@@ -250,4 +284,8 @@ footer p.roda-pe{
         width: 100%;
 
     }
+    ::-webkit-scrollbar{
+        width: 2vw;
+    }
 }
+

@@ -14,8 +14,8 @@ main section.manga{
 
 }
 main section.manga img.pag{
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 98vh;
     object-fit: contain;
     object-position: center;
 }
@@ -84,5 +84,6 @@ main div.mudar_cap button:active{
     
     main section.manga img.pag{
         width: 80vw;
+        height: auto;
     }
 }

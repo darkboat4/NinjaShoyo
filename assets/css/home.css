@@ -225,6 +225,16 @@ main div.container-3 button:hover{
     main div.container-3 button{
         font-size: 1em;
     }
+    main div.container-3 button:hover{
+        
+        transition: .3s linear;
+        transform: translateY(-5px);
+    }
+
+    main div.container-3 button:active{
+        transition: .3s linear;
+        transform: translateY(3px);
+    }
 
 }
 
@@ -310,8 +320,8 @@ main div.container-3 button:hover{
         align-items: center;
         display: flex;
         margin-bottom: 20px;
-        margin-top: 1vh;
-        width: 10vw;
+        margin-top: 0;
+        width: 100vw;
         height: auto;
         padding-bottom: 5vh;
     }
@@ -350,7 +360,8 @@ main div.container-3 button:hover{
         align-items: center;
         width: 90vw;
         height: auto;
-        margin-bottom: 3vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
 
         
     }
@@ -372,7 +383,6 @@ main div.container-3 button:hover{
         justify-content: flex-start;
         flex-direction: column;
         height: auto;
-        padding-bottom: 3vh;
 
     }
     main div.container-2 h1{
@@ -392,6 +402,8 @@ main div.container-3 button:hover{
     }
     main div.container-3 button{
         width: 50vw;
+        font-size: 1.2em;
     }
+
 
 }
